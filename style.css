@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(229, 116, 9);
+    color: rgb(35, 8, 213);
+}
+
+#board {
+    display: flex; 
+    border: 2px solid red; 
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.slot { 
+    border: 2px solid blue; 
+    width: 32%;
+    height: 32%;
+    font-size: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+title {
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+}
